@@ -749,3 +749,686 @@ header{
 }
 
 
+/* responsive */
+
+@media (max-width: 992px) {
+
+  .navbar {
+    padding: 15px 20px;
+  }
+  
+  .logo {
+    font-size: 1.6rem;
+  }
+  
+  .nav-links {
+    gap: 20px;
+  }
+  
+  .nav-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+  
+  
+  .hero {
+    padding: 3rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+    max-width: 90%;
+  }
+  
+  .podcast-circle {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .circle-glow {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .microphone-img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .primary-btn, .secondary-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+
+  .about-section {
+    padding: 60px 15px;
+  }
+  
+  .outer-blue-frame {
+    padding: 30px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .about-description {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+  
+  .about-join {
+    font-size: 0.85rem;
+  }
+  
+  .stats-inner-box {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+  
+  .stat-item:nth-child(2) {
+    border-right: none;
+  }
+  
+  .stat-item:nth-child(3), .stat-item:nth-child(4) {
+    border-top: 1px dotted rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+  }
+  
+  .neon-text {
+    font-size: 2rem;
+  }
+  
+  .stat-item p {
+    font-size: 0.65rem;
+  }
+  
+  .header-inner-box {
+    padding: 30px 20px;
+  }
+  
+ 
+  .why-section {
+    padding: 60px 15px;
+  }
+  
+  .outer-blue-frame {
+    padding: 30px;
+  }
+  
+  .why-title {
+    font-size: 1.8rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+  
+  .feature-card.tall {
+    grid-row: span 1;
+  }
+  
+  .feature-card.wide {
+    grid-column: span 1;
+  }
+  
+  .feature-card {
+    padding: 20px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .feature-card p {
+    font-size: 0.85rem;
+  }
+  
+  
+  .episodes-section {
+    padding: 60px 15px;
+  }
+  
+  .outer-blue-frame {
+    padding: 30px;
+  }
+  
+  .episodes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.1rem;
+  }
+  
+  .card-content p {
+    font-size: 0.85rem;
+  }
+  
+
+  .host-section {
+    padding: 50px 15px;
+  }
+  
+  .blueprint-frame {
+    padding: 30px;
+  }
+  
+  .host-glass-card {
+    padding: 30px;
+    border-radius: 30px;
+  }
+  
+  .host-flex-container {
+    gap: 30px;
+  }
+  
+  .host-avatar {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .host-name {
+    font-size: 1.8rem;
+  }
+  
+  .host-bio {
+    font-size: 0.95rem;
+  }
+  
+  .social-circle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-circle img {
+    width: 18px;
+  }
+  
+ 
+  .footer-brand {
+    font-size: 2.2rem;
+  }
+  
+  .platform-links {
+    gap: 20px;
+  }
+  
+  .platform-item {
+    font-size: 0.85rem;
+  }
+  
+  .copyright-text {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+ 
+  .navbar {
+    padding: 12px 15px;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 1.4rem;
+    z-index: 1002;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  .nav-btn {
+    display: none;
+  }
+  
+  .hamburger {
+    display: block;
+    z-index: 1002;
+  }
+  
+ 
+  .hero {
+    padding: 2.5rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .podcast-circle {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .circle-glow {
+    width: 170px;
+    height: 170px;
+    top: -10px;
+    left: -10px;
+  }
+  
+  .microphone-img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .badge {
+    top: 5px;
+    right: 5px;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.7rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .primary-btn, .secondary-btn {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+    padding: 0.9rem 1.5rem;
+  }
+  
+
+  .about-section {
+    padding: 40px 10px;
+  }
+  
+  .outer-blue-frame {
+    padding: 20px;
+    border-width: 1px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-description {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-join {
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+  }
+  
+  .stats-inner-box {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+  
+  .stat-item {
+    border-right: none;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+  }
+  
+  .stat-item:last-child {
+    border-bottom: none;
+  }
+  
+  .neon-text {
+    font-size: 1.8rem;
+  }
+  
+  .stat-item p {
+    font-size: 0.6rem;
+  }
+  
+  .header-inner-box {
+    padding: 25px 15px;
+  }
+ 
+  .about-section .hamburger {
+    display: none;
+  }
+  
+  
+  .why-section {
+    padding: 40px 10px;
+  }
+  
+  .outer-blue-frame {
+    padding: 20px;
+  }
+  
+  .why-title {
+    font-size: 1.6rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 15px;
+  }
+  
+  .feature-card.tall, 
+  .feature-card.wide {
+    grid-row: auto;
+    grid-column: auto;
+  }
+  
+  
+  .feature-card {
+    padding: 20px 15px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1rem;
+  }
+  
+  .feature-card p {
+    font-size: 0.8rem;
+  }
+  
+  .icon-wrap {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+  }
+  
+  .title-box {
+    padding: 15px;
+    margin-bottom: 25px;
+  }
+  
+ 
+  .episodes-section {
+    padding: 40px 10px;
+  }
+  
+  .outer-blue-frame {
+    padding: 20px;
+  }
+  
+  .episodes-grid {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 15px;
+  }
+  
+  .episode-card {
+    border-radius: 20px;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .duration {
+    font-size: 0.8rem;
+  }
+  
+  .duration img {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .title-inner-box {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .host-section {
+    padding: 40px 10px;
+  }
+  
+  .blueprint-frame {
+    padding: 20px;
+  }
+  
+  .host-glass-card {
+    padding: 25px 20px;
+    border-radius: 25px;
+  }
+  
+  .host-flex-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+  
+  .host-avatar {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .host-name {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .host-bio {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  
+  .social-row {
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .social-circle {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .social-circle img {
+    width: 16px;
+  }
+  
+  .dotted-title-box {
+    padding: 12px;
+    margin-bottom: 25px;
+  }
+  
+
+  .footer-brand {
+    font-size: 1.8rem;
+  }
+  
+  .platform-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .platform-item {
+    font-size: 0.8rem;
+  }
+  
+  .platform-item img {
+    width: 16px;
+  }
+  
+  .copyright-text {
+    font-size: 0.7rem;
+    padding-top: 15px;
+    margin-top: 15px;
+  }
+  
+  .footer-content {
+    gap: 20px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+ 
+  .hero-title {
+    font-size: 3rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.15rem;
+  }
+  
+  .podcast-circle {
+    width: 200px;
+    height: 200px;
+  }
+  
+
+  .episodes-grid {
+    gap: 20px;
+  }
+  
+  
+  .host-flex-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+  }
+  
+  .host-avatar {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .social-row {
+    justify-content: center;
+  }
+}
+
+
+
+@media (max-width: 375px) {
+
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .podcast-circle {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .circle-glow {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .microphone-img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+  
+  .neon-text {
+    font-size: 1.6rem;
+  }
+  
+ 
+  .why-title {
+    font-size: 1.4rem;
+  }
+  
+
+  .host-avatar {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .host-name {
+    font-size: 1.4rem;
+  }
+  
+  .host-bio {
+    font-size: 0.85rem;
+  }
+  
+ 
+  .footer-brand {
+    font-size: 1.6rem;
+  }
+}
+
+
+@media (max-height: 600px) and (orientation: portrait) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+  
+  .podcast-circle {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-subtitle {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media print {
+  .hero-buttons,
+  .hamburger,
+  .nav-btn,
+  .social-row,
+  .platform-links {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .hero {
+    background: none !important;
+    color: black !important;
+    padding: 20px !important;
+  }
+  
+  .hero-title {
+    -webkit-text-fill-color: black !important;
+    color: black !important;
+  }
+}
