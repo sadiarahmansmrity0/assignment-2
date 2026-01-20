@@ -42,8 +42,8 @@ header{
 }
 .logo span {
   background: linear-gradient(45deg, #FB09B4,  #9100F8,#dfd463,#eb23af, #9100F8);
-  -webkit-background-clip: text;   /* Clips background to text */
-  -webkit-text-fill-color: transparent; /* Makes text transparent so gradient shows */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
 }
 .nav-btn {
   padding: 10px 20px;
@@ -58,11 +58,19 @@ header{
   transform: translateY(-2px);
 }
 
+.hamburger-toggle {
+  display: none;
+}
+
 .hamburger {
   display: none;
-  font-size: 1.5rem;
+  width: 30px;
+  height: 24px;
+  position: relative;
   cursor: pointer;
+  z-index: 1001;
 }
+
 .hero {
  
   padding: 5rem 2rem;
@@ -234,7 +242,7 @@ header{
 } */
 
 .primary-btn {
-  background: #1DB954;
+  background: linear-gradient(45deg,#F7E93F,#FB09B4, #9100F8);
   color: white;
 }
 
@@ -258,9 +266,124 @@ header{
   background: rgba(255, 255, 255, 0.1);
   transform: translateY(-2px);
 }
+/* 2 */
 
 
+.about-section {
+  background-color: #1A0B2E; 
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  
+}
 
+
+.outer-blue-frame {
+  border: 1px solid #2b59ff; 
+  max-width: 1100px;
+  width: 100%;
+  padding: 40px;
+  position: relative;
+  background-color: #1A0B2E;
+}
+.hamburger {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 10;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.hamburger img {
+  width: 24px;   
+  height: auto;
+  filter: invert(1); 
+}
+
+.hamburger:hover {
+  transform: scale(1.1);
+}
+
+.header-inner-box {
+  border: 1px dotted rgba(255, 255, 255, 0.2);
+  padding: 50px 30px;
+  text-align: center;
+  
+  background-image: radial-gradient(rgba(255, 0, 0, 0.15) 1px, transparent 1px);
+  background-size: 10px 10px;
+}
+
+.section-title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+.about-join {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+
+.divider-container {
+  height: 80px; 
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+
+.tick-mark {
+  position: absolute;
+  background-color: #2b59ff; 
+}
+
+.tick-mark.center { width: 30px; height: 2px; }
+.tick-mark.left { width: 2px; height: 12px; left: -1px; }
+.tick-mark.right { width: 2px; height: 12px; right: -1px; }
+
+.stats-inner-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px dotted rgba(255, 255, 255, 0.2);
+  padding: 30px 0;
+}
+
+.stat-item {
+  text-align: center;
+  border-right: 1px dotted rgba(255, 255, 255, 0.1);
+}
+
+.stat-item:last-child {
+  border-right: none;
+}
+
+
+.neon-text {
+  color: #00ffa3; 
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.stat-item p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
 
 
 
